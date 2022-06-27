@@ -22,4 +22,9 @@ public class UserController {
 		 return userService.getUsers(documentId);	
 	}
 	
+	@GetMapping
+	public String test()  {
+		 return "Working";	
+	}
+	
 }
